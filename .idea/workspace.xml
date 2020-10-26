@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa592f0-289d-4b44-9518-3c11f667d909" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/BookingRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/bookings/list.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vrm_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vrm_project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bookings/menu.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/BookingIndex.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookingIndex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Bookings.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Bookings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bookings/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bookings/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +112,7 @@
       <workItem from="1601980941000" duration="8058000" />
       <workItem from="1601999856977" duration="14000" />
       <workItem from="1603648280145" duration="5020000" />
-      <workItem from="1603714960733" duration="3254000" />
+      <workItem from="1603714960733" duration="4784000" />
     </task>
     <task id="LOCAL-00001" summary="Twig, annotations ja + katsetatud controlleri loomine ja laiendamine">
       <created>1600417182175</created>
@@ -160,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600496716661</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="andmete salvestamine vormist andmebaasi, andmete lugemine andmebaasist ja nende kuvamine tabelisse">
+      <created>1603733718477</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603733718477</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +176,8 @@
     <MESSAGE value="Loodud bookingu vorm" />
     <MESSAGE value="Loodud bookingu vormi stiil" />
     <MESSAGE value="andmebaasi ja tabeli loomine" />
-    <option name="LAST_COMMIT_MESSAGE" value="andmebaasi ja tabeli loomine" />
+    <MESSAGE value="andmete salvestamine vormist andmebaasi, andmete lugemine andmebaasist ja nende kuvamine tabelisse" />
+    <option name="LAST_COMMIT_MESSAGE" value="andmete salvestamine vormist andmebaasi, andmete lugemine andmebaasist ja nende kuvamine tabelisse" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Deployment" timestamp="1600415662831">
@@ -184,10 +188,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="345" y="58" key="#SSH_Configurations/0.0.1536.824@0.0.1536.824" timestamp="1600415595220" />
-    <state x="745" y="0" key="CommitChangelistDialog2" timestamp="1600496715511">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="931" y="0" key="CommitChangelistDialog2" timestamp="1603733717267">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="745" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600496715511" />
+    <state x="931" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603733717267" />
     <state x="2818" y="203" key="NewPhpClassDialog" timestamp="1603652102205">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -197,10 +202,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1601981774594" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600496717999">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1603733721014">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600496717999" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603733721014" />
     <state x="592" y="143" key="ftp.server.browser" timestamp="1600415661850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

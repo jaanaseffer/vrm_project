@@ -1,0 +1,19 @@
+.menu {
+    height: 4em;
+    padding-left: 6em;
+}
+.menu-link {
+    display: inline-block;
+    margin-right: 1em;
+    padding: 1em;
+    border: 3px solid #4CA5A5;
+    border-top: none;
+    background-color: #d9f8f8;
+    box-sizing:border-box;
+}
+a.menu-link {
+    text-decoration: none;
+}
+.menu-link.active {
+    color: #ffa8a8;
+}
